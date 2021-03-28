@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.info {
+  margin: 0 auto;
+
+  font-size: 25px;
+}
+.title {
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.global-title {
+  position: fixed;
+  top: 50%;
+  height: 50px;
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+.global-title_game {
+  left: -50px;
+  transform: rotate(-90deg) translateY(50%);
+}
+.global-title_victory {
+  right: -50px;
+  transform: rotate(90deg) translateY(50%);
+}
+
+canvas {
+  background: #eee;
+  display: block;
+  margin: 0 auto;
+}
